@@ -1,0 +1,20 @@
+{
+  "name": "queue_process",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev:server": "nodemon src/server.js",
+    "dev:queue": "nodemon src/queue.js"
+  },
+  "dependencies": {
+    "bull": "^3.16.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.10"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4",
+    "sucrase": "^3.15.0"
+  }
+}
